@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: workSans-Regular
+}
+
+.mainContentContainer{
+    background-color: #192734;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bgImage{
+    position: absolute;
+    top: 0;
+    width: 100vw;
+    height: 45vh;
+    object-fit: cover;
+    object-position: center bottom;
+    z-index: 0;
+    border-bottom: 6px solid white;
+}
+
+.profileContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    margin-top: 25vh;
+}
+
+.profileImage{
+    width: 13rem;
+    border-radius: 5%;
+    margin: 0.75rem;
+}
+
+h1{
+    font-size: 2.35rem;
+    letter-spacing: 2px;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 12rem;
+    width: 35%;
+    font-size: 1.25rem;
+    font-weight: normal;
+    letter-spacing: 1px;
+}
+
+nav > h4{
+    cursor: pointer;
+}
+
+@font-face {
+    font-family: workSans-Regular;
+    src: url(./work-sans/static/WorkSans-Regular.ttf);
+}
